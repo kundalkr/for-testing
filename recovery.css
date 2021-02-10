@@ -1,0 +1,118 @@
+/* box shadow */
+#boxshadow {
+  box-shadow: 10px 20px grey;
+  /* x-axis y-axis shadowcolor */
+  box-shadow: 10px 20px 15px 3px grey inset;
+  /*x-axis y-axis  blurradius spreadradius 
+            inset means internal shadow*/
+}
+#background_blen_mode {
+  /* how we use blend mode in css 
+        means picture ke upar dark color kaise use kre */
+  /* sabse pehle koi background image dedenge uske baad jo color oske upar use krna hain wo blend mode wale property me likh denge */
+  background-image: #f3e40b;
+  background-color: ;
+  background-blend-mode: color-dodge;
+}
+#mask_image {
+  /* sbse pehle html me <img> tag use krenge uske baad us image tag ke css me mask image use krenge   */
+  mask-image: url();
+  -webkit-mask-image: url();
+}
+
+/* #look_like_a_story_book */
+p.intro:first-letter {
+  font-size: 100px;
+  display: block;
+  float: left;
+  line-height: 0.5;
+  margin: 15px 15px 10px 0;
+}
+body {
+  font-size: 1rem;
+  width: 40%;
+  margin: auto;
+  font-family: cormorant in;
+}
+/* #look_like_a_story_book end */
+
+#border {
+  border-style: dotted solid none dashed;
+  /* top right bottom left */
+  border-style: solid dotted;
+  /* top,botom and right,left */
+  border-style: dashed;
+  /* for all */
+  border-width: 5px 6px 6px 9px;
+  /* side crieteria is same */
+  border-top-style: dashed;
+  /* sb side ka alag alag kr ke de skte hain */
+  border-radius: 7px;
+  /* border ka corner kitna round (gol)  hoga*/
+  border-top-left-radius: 67px;
+  /* sb side ka alag alag kr ke de skte hain */
+}
+#MARGIN (gap between content and border) {
+  margin: 25px 12px;
+  /* top/bottom , right/left */
+  margin: 23px 45px 56px 67px;
+  /* top right bottom left  */
+}
+/* -------------------------------------------------- */
+#PADDING (difference betwwen two border)
+
+
+/* ---------------------------------------------------- */
+/* ------------------------------------------------------- */
+/* how to use root */
+:root {
+  --primary-color: white;
+  --button-color: red;
+}
+/* then how we use root  */
+#header {
+  color: var(--primary-color);
+}
+/* ---------------------------------------------- */
+/* ------------------------------------------------ */
+ IMAGE 
+ background-position: 100%;
+ background-size: cover;
+ background-repeat : no-repeat;
+
+/* ..................................................... */
+REM and EM 
+
+EM : relative font size to parent 
+REM :   relative font size to HTML
+
+
+/*.....................................................................................  */
+% PERCENTAGE 
+
+relative to parent 
+/* ............................................................................ */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ...................................ANIMATION.......................................... */
+NOTE :- SBSE PEHLE @keyframe changecolor {} ME ANIAMTION KA NAAM LIKH DENGE USKE BAAD JIS CLASS OR ID (#KUNDAL OR .KUNDAL) ME USE KRNA CHAHTE HAIN USME  (animation name ) likhenge like this 
+
+@keyframes kundal{
+    
+}
+
+
+.animation{
+    animation-name : kundal;
+}
+

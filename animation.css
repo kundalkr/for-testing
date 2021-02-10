@@ -1,0 +1,12 @@
+@keyframes kundal{
+from { background-size: 50px; }
+to{background-size: contain; }
+}
+
+
+.animation{
+    animation-name : kundal;
+
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
